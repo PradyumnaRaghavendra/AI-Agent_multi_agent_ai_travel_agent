@@ -11,14 +11,14 @@ from datetime import datetime
 # Add the parent directory to the path to import modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from ai_travel_agent.modules.user_input import UserInputHandler
-from ai_travel_agent.modules.weather_service import WeatherService
-from ai_travel_agent.modules.attraction_finder import AttractionFinder
-from ai_travel_agent.modules.hotel_estimator import HotelEstimator
-from ai_travel_agent.modules.currency_converter import CurrencyConverter
-from ai_travel_agent.modules.expense_calculator import ExpenseCalculator
-from ai_travel_agent.modules.itinerary_planner import ItineraryPlanner
-from ai_travel_agent.modules.trip_summary import TripSummaryGenerator
+from modules.user_input import UserInputHandler
+from modules.weather_service import WeatherService
+from modules.attraction_finder import AttractionFinder
+from modules.hotel_estimator import HotelEstimator
+from modules.currency_converter import CurrencyConverter
+from modules.expense_calculator import ExpenseCalculator
+from modules.itinerary_planner import ItineraryPlanner
+from modules.trip_summary import TripSummaryGenerator
 
 class TravelAgent:
     """Main Travel Agent orchestrator class (Legacy Single-Agent Version)"""

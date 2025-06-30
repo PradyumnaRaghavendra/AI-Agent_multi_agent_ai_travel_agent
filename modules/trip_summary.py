@@ -1,7 +1,7 @@
 import json
 from typing import Dict, Any, List
 from datetime import datetime
-from ..data.models import TripSummary, DayPlan, Hotel, Weather
+from data.models import TripSummary, DayPlan, Hotel, Weather
 
 class TripSummaryGenerator:
     """Service for generating comprehensive trip summaries"""

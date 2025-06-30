@@ -3,9 +3,9 @@ import requests
 import json
 from typing import List, Dict, Any, Optional
 import random
-from ..data.models import Attraction
-from ..config.api_config import api_config
-from ..config.app_config import app_config
+from data.models import Attraction
+from config.api_config import api_config
+from config.app_config import app_config
 
 class AttractionFinder:
     """Service for finding attractions, restaurants, and activities"""

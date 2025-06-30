@@ -3,8 +3,8 @@ from typing import List, Optional, Dict, Any
 from datetime import datetime, timedelta
 import json
 
-from ..config.api_config import api_config
-from ..data.models import Weather
+from config.api_config import api_config
+from data.models import Weather
 
 class WeatherService:
     """Service for fetching weather data"""

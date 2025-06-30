@@ -3,7 +3,7 @@ import requests
 import json
 from typing import Dict, Any, Optional, List
 from datetime import datetime, timedelta
-from ..config.api_config import api_config
+from config.api_config import api_config
 
 class CurrencyConverter:
     """Service for currency conversion and exchange rate management"""

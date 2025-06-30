@@ -1,6 +1,6 @@
 # Total and daily cost calculation
 from typing import Dict, Any, List
-from ..data.models import Hotel, Attraction, Transportation
+from data.models import Hotel, Attraction, Transportation
 
 class ExpenseCalculator:
     """Service for calculating total trip expenses"""

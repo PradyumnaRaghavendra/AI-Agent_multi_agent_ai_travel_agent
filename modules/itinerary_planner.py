@@ -2,7 +2,7 @@
 import random
 from typing import Dict, Any, List
 from datetime import datetime, date, timedelta
-from ..data.models import DayPlan, Weather, Attraction, Transportation
+from data.models import DayPlan, Weather, Attraction, Transportation
 
 class ItineraryPlanner:
     """Service for creating detailed day-by-day itineraries"""

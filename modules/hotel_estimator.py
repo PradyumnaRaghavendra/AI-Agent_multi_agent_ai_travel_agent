@@ -3,8 +3,8 @@ import requests
 import json
 from typing import List, Dict, Any, Optional
 import random
-from ..data.models import Hotel
-from ..config.api_config import api_config
+from data.models import Hotel
+from config.api_config import api_config
 
 class HotelEstimator:
     """Service for finding hotels and estimating accommodation costs"""
